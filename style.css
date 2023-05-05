@@ -1,0 +1,94 @@
+h1.center {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  padding: 20px;
+}
+.dice-box {
+  width: 75px;
+  height: 75px;
+  border: 2px solid black;
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #AF7AC5;
+}
+
+.content {
+  text-align: center;
+}
+
+table.a {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+td.a {
+  font-family: Arial;
+  font-weight: bold;
+  text-align: right;
+}
+
+td.b {
+  background-color: #AEAFFF;
+  border: 2px inset gray;
+  width: 2em;
+  height: 1.2em;
+}
+
+table.b {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+td.c {
+  text-align: right;
+  padding-left: 100px;
+  margin-top: 20px;
+}
+
+button.a{
+  font-family:'Times New roman';
+  font-size:14pt;
+  background-color:#5B00CA;
+  color:#F7E3DC;
+  font-weight:bold;
+  text-align:center;
+}
+
+button.b {
+  position: absolute;
+  bottom: 20px;
+  right: 350px;
+  margin-top: 5px;
+  background: linear-gradient(to bottom, #ddd, #eee);
+  color: #152580;
+  font-weight: 600;
+  font-size: 20px;
+  width: 120px;
+  height: 45px;
+  font-family: 'Times New Roman', Times, serif;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
+}
+
+button.a,
+button.b {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+@media (max-width: 768px) {
+  button.b,
+  button.a {
+    position: relative;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+}
